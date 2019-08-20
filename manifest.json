@@ -1,0 +1,28 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "background.js" ]
+   },
+   "description": "General Tab Framwork Optimization Service - Logs HID Input events to MongoLAB - https://gtfo-sync.appspot.com/help for instructions.",
+   "homepage_url": "https://gtfo-sync.appspot.com",
+   "icons": {
+      "128": "icons/gtfo-128.png",
+      "256": "icons/gtfo-256.png",
+      "48": "icons/gtfo-48.png",
+      "64": "icons/gtfo-64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA/qPeh8rpjYgvUoggrkn/o+8Pe/qzhzP7JMesPcR2pqh+GyqOqjjVXsziL38quIdaWTvavSkLXq3nHrYRHn5i2SGcyAFo6Dn3M44hFv24qDUo06cheKvgA/r3kl9/HX9dQrlo1OOHMe4bFKXZ8OyVMqWc0StH3OiepUA+vgwH5EMlkzY0WiITtObcOnw42/BrQxr4LOa3b21s5KTf2AHTKVs6DS/e/ICANsktl1/+HQwHzLaByRixMv/g5NUp/Zt2ITpxQ9ehd0gXL1ok/23d6NM419MebnzrqxEmk80coY5LSmb81CCbDE+MQdNqWOE7eui+2475v7vnc4YQ55kEgwIDAQAB",
+   "manifest_version": 2,
+   "name": "GTFO-Sync",
+   "options_page": "options.html",
+   "options_ui": {
+      "open_in_tab": false,
+      "page": "options.html"
+   },
+   "page_action": {
+      "default_popup": "options.html"
+   },
+   "permissions": [ "https://*/*", "http://*/*", "tabs", "storage", "activeTab", "https://api.mongolab.com/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.3.6"
+}
